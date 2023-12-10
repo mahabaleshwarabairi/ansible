@@ -2,7 +2,7 @@
 - name: Install Nginx on CentOS
   hosts: localhost
   tasks:
-    - name: Install Nginx package
+    - name: Install Nginx package installation
       yum:
         name: nginx
         state: present
